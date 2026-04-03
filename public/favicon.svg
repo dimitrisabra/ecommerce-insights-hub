@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">SalesIQ icon</title>
+  <desc id="desc">A stylized analytics dashboard icon with a bar chart.</desc>
+  <defs>
+    <linearGradient id="panel" x1="10" y1="8" x2="54" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1d4ed8" />
+      <stop offset="1" stop-color="#8b5cf6" />
+    </linearGradient>
+    <linearGradient id="bars" x1="16" y1="18" x2="48" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60a5fa" />
+      <stop offset="0.55" stop-color="#38bdf8" />
+      <stop offset="1" stop-color="#34d399" />
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="#0b1220" />
+  <rect x="8" y="8" width="48" height="48" rx="12" fill="url(#panel)" opacity="0.26" />
+  <path
+    d="M18 44h28"
+    fill="none"
+    stroke="#93c5fd"
+    stroke-linecap="round"
+    stroke-width="2.5"
+    opacity="0.9"
+  />
+  <rect x="18" y="30" width="7" height="14" rx="3.5" fill="url(#bars)" />
+  <rect x="29" y="22" width="7" height="22" rx="3.5" fill="url(#bars)" />
+  <rect x="40" y="16" width="7" height="28" rx="3.5" fill="url(#bars)" />
+  <path
+    d="M18 28c5.5-5.5 11-8.4 16.5-8.4 4.6 0 8.5 1.8 11.5 5.4"
+    fill="none"
+    stroke="#f8fafc"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    stroke-width="3"
+  />
+  <circle cx="46" cy="25" r="2.5" fill="#f8fafc" />
+</svg>
